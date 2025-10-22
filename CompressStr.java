@@ -1,4 +1,4 @@
-package Java;
+package Java.String;
 
 public class CompressStr {
     public static void main(String[] args) {
