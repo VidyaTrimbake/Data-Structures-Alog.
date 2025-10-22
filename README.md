@@ -1,3 +1,11 @@
-# Data-Structures-Alog.
+# Data Structures and Algorithms in Java
 
-This repositry contains all the code of Data Structure and Algo. which I practice on daily practice.
+This repository contains Java implementations of key data structures and algorithms.
+
+## 🧠 Topics Covered
+- Arrays, Strings, Linked Lists, Stacks, Queues
+- Trees, Graphs, Heaps, HashMaps
+- Sorting & Searching Algorithms
+- Recursion and Dynamic Programming
+
+📘 **Goal:** Strengthen DSA knowledge for interviews and problem-solving.
