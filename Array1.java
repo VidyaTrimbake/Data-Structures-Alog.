@@ -1,57 +1,18 @@
-
-
-//***********Maximum number in array**************
-
-
-import java.util.Scanner;
-
-class Array1
-{
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-
-        System.out.println("Enter the size of array: ");
-        int iSize = sc.nextInt();
-
-        Numbers nObj = new Numbers(iSize);
-        nObj.Accept();
-        nObj.Display();
-        nObj.MaxNumber();
-
-    }
-}
-
-class Numbers
-{
-    public int Arr[];
-
-    public Numbers(int iSize){
-        Arr = new int[iSize];
+package Array;
+class Array1{
+    public static void main(String a[]){
+        int marks[] = {10,20,30,40};
+        Array1 array = new Array1();
+        array.Update(marks);
     }
 
-    public void Accept(){
-        System.out.println("Enter the elements: ");
-        Scanner sc = new Scanner(System.in);
-        for(int i=0; i<Arr.length; i++){
-            Arr[i] = sc.nextInt();
+    public void Update(int marks[]){
+        for(int i=0; i<marks.length; i++){
+            marks[i] = marks[i] ;
         }
-    }
 
-    void Display(){
-        System.out.println("The elements in Arr are: ");
-        for(int i=0; i<Arr.length; i++){
-            System.out.println(Arr[i]);
+        for(int i=0; i<marks.length; i++){
+            System.out.println(marks[i]);
         }
-    }
-
-    void MaxNumber(){
-        System.out.println("The maximum element in Arr is: ");
-        int Max = Arr[0];
-        for(int i=1; i<Arr.length; i++){
-            if(Arr[i] > Max){
-                Max = Arr[i];
-            }
-        }
-        System.out.println(Max);
     }
 }
